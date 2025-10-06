@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "datasets>=4.1.1",
     "ipykernel>=6.30.1",
     "matplotlib>=3.10.6",
     "numpy>=2.3.3",
@@ -24,7 +25,7 @@ default = true
 name = "torch-cu129"
 url = "https://download.pytorch.org/whl/cu129"
 
-### Better use CLI to set the index strategy
-### uv add torch --index-strategy unsafe-best-match
-# [tool.uv]
-# index-strategy = "unsafe-best-match"
+## Better use CLI to set the index strategy
+## uv add torch --index-strategy unsafe-best-match
+[tool.uv]
+index-strategy = "unsafe-best-match"
