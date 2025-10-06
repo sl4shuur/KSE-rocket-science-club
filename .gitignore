@@ -208,3 +208,6 @@ __marimo__/
 
 # temp folder just for personal use
 temp/
+
+# some auto-generated files
+*.db
