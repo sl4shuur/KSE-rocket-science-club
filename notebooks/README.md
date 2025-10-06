@@ -1,7 +1,5 @@
 # How to share Jupyter Notebooks Live
 
-Source: [JupyterLab Realtime Collaboration](https://jupyterlab-realtime-collaboration.readthedocs.io/en/latest/)
-
 ```bash
 jupyter server --generate-config
 jupyter --paths
