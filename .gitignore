@@ -205,3 +205,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# temp folder just for personal use
+temp/
+
+# some auto-generated files
+*.db
